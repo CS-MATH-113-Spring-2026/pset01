@@ -1,0 +1,107 @@
+\documentclass[a4paper]{exam}
+
+\usepackage{amsmath,amssymb, amsthm}
+\usepackage{geometry}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{titling}
+
+
+
+% Header and footer.
+\pagestyle{headandfoot}
+\runningheadrule
+\runningfootrule
+\runningheader{CS/MATH 113, SPRING 2026}{Pset 01: Propositional Logic}{\theauthor}
+\runningfooter{}{Page \thepage\ of \numpages}{}
+\firstpageheader{}{}{}
+
+% \printanswers %Uncomment this line
+
+\title{Problem Set 01: Propositional logic}
+\author{Blingblong} % <=== replace with your student ID, e.g. xy012345
+\date{CS/MATH 113 Discrete Mathematics\\Habib University\\Spring 2026}
+
+\qformat{{\large\bf \thequestion. \thequestiontitle}\hfill}
+\boxedpoints
+
+\begin{document}
+\maketitle
+
+\begin{questions}
+    \titledquestion{The fellowship of the Pset}
+    Let proposition $p$ and $q$ be:
+    \begin{itemize}
+        \item $p$: You have the one ring.
+        \item $q$: You are mentally sane.
+    \end{itemize}
+    Express each of these compound propositions as an English sentence.
+    \begin{parts}
+        \part $p \implies \neq q$
+        \begin{solution}
+            % Enter solution here
+        \end{solution}
+
+        \part $p\lor (\neg p \land q)$
+        \begin{solution}
+            % Enter solution here
+        \end{solution}
+    \end{parts}
+
+    \titledquestion{Jump off, kick back, spin for hours}
+    Let proposition $p$, $q$, $r$ and $s$ be:
+    \begin{itemize}
+        \item $p$: I have Rs.1000.
+        \item $q$: I am free on $14^{\text{th}}$ Feb.
+        \item $r$: I am went to HUcon.
+        \item $s$: I enjoyed my weekend.
+    \end{itemize}
+    \begin{parts}
+        \part I have Rs.1000 and I am free on $14^{\text{th}}$ Feb then I am going to HUcon and so I enjoyed my weekend.
+        \begin{solution}
+            % Enter solution here
+        \end{solution}
+
+        \part I have Rs.1000 and I am not free on $14^{\text{th}}$ Feb then I didn't enjoy my weekend.
+        \begin{solution}
+            % Enter solution here
+        \end{solution}
+    \end{parts}
+
+
+    \titledquestion{Just friends} 
+    You have two ``\emph{platonic}'' friends, Makima and Reze. Reze is for sure platonic but you get mixed signals from Makima. Makima says ``we are just platonic''. Your friend Saqib tells you that one of them always tells the truth and one of them always lies, or they both may always tell the truth or they both may always lie (Saqib was a bit confused on this and had recently been knocked on his head but you can be sure that one of these is the case). Makima tells you ``We both tell the truth''. While Reze says ``Makima is lying''. Are you and Makima just platonic?
+    \begin{solution}
+        % Enter solution here
+    \end{solution}
+
+    \titledquestion{Morgan} 
+    \begin{center}
+        \includegraphics[scale = 0.25]{morgan-freeman.png}
+    \end{center}
+    
+    Show that the De Morgan's laws holds 
+    \begin{parts}
+        \part $\neg (p \lor q) \equiv \neg p \land \neg q$
+        \begin{solution}
+            % Enter solution here
+        \end{solution}
+
+        \part $\neg (p \land q) \equiv \neg p \lor \neg q$
+        \begin{solution}
+            % Enter solution here
+        \end{solution}
+    \end{parts}
+    
+
+    \titledquestion{THISISACRYFORHELP!} 
+    Determine whether $(\neg p \land (p \implies q)) \implies (\neg q \lor \neg p)$ is a tautology.
+
+      
+\end{questions}
+\end{document}
+
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: t
+%%% End:
